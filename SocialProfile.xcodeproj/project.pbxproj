@@ -48,6 +48,10 @@
 		DE6DF149299E21C500946BEA /* SocialProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE6DF156299E22B000946BEA /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
 		DE6DF159299E23C600946BEA /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
+		DE6DF15B299E588B00946BEA /* Global.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Global.xcconfig; sourceTree = "<group>"; };
+		DE6DF15C299E58DA00946BEA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DE6DF15D299E592A00946BEA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DE6DF15E299E5D3300946BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,14 @@
 		DE6DF12B299E21C400946BEA /* SocialProfile */ = {
 			isa = PBXGroup;
 			children = (
+				DE6DF15E299E5D3300946BEA /* Info.plist */,
 				DE6DF12C299E21C400946BEA /* SocialProfileApp.swift */,
 				DE6DF12E299E21C400946BEA /* ContentView.swift */,
 				DE6DF159299E23C600946BEA /* CircularImage.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
+				DE6DF15B299E588B00946BEA /* Global.xcconfig */,
+				DE6DF15C299E58DA00946BEA /* Debug.xcconfig */,
+				DE6DF15D299E592A00946BEA /* Release.xcconfig */,
 				DE6DF132299E21C500946BEA /* Preview Content */,
 			);
 			path = SocialProfile;
@@ -305,6 +313,7 @@
 /* Begin XCBuildConfiguration section */
 		DE6DF14B299E21C500946BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6DF15C299E58DA00946BEA /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -365,6 +374,7 @@
 		};
 		DE6DF14C299E21C500946BEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6DF15D299E592A00946BEA /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -428,6 +438,7 @@
 				DEVELOPMENT_TEAM = AL9A5666Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +468,7 @@
 				DEVELOPMENT_TEAM = AL9A5666Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
