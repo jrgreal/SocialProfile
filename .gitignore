@@ -23,11 +23,12 @@ Temporary Items
 
 # Xcode
 xcuserdata/
+*.xcconfig
 
 # Vim
 
 # Swap
-[.]×.s[a-v][a-z]
+[.]*.s[a-v][a-z]
 !*.svg # comment out if you don't need vector files
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-z]
