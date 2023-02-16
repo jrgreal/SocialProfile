@@ -14,6 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            
+#if DEBUG
+            Text("**Base URL**: \(API.baseURL)")
+            Text("**API key**: \(API.key)")
+#endif
         }
         .padding()
     }
