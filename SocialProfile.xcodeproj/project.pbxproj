@@ -54,6 +54,7 @@
 		DE6DF15D299E592A00946BEA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		DE6DF15E299E5D3300946BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE6DF15F299E64B100946BEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		DE6DF161299E67FC00946BEA /* Config.README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Config.README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				DE6DF159299E23C600946BEA /* CircularImage.swift */,
 				DE6DF15F299E64B100946BEA /* API.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
+				DE6DF161299E67FC00946BEA /* Config.README.md */,
 				DE6DF15B299E588B00946BEA /* Global.xcconfig */,
 				DE6DF15C299E58DA00946BEA /* Debug.xcconfig */,
 				DE6DF15D299E592A00946BEA /* Release.xcconfig */,
