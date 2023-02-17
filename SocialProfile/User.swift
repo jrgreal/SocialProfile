@@ -7,9 +7,13 @@
 
 import UIKit
 
-struct User {
+struct User: Hashable {
     let name: String
     let headshot: UIImage
     let cover: UIImage
+    let about: String
+    let city: String
+    let company: String
+    let birthday: Date
     var friends: [User] = []
 }

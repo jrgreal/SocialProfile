@@ -18,6 +18,12 @@ struct ContentView: View {
                     headshot: Image("bearded-man"),
                     cover: Image("cover"))
                 Friends(friends: user.friends)
+                Bio(
+                    about: user.about,
+                    birthday: user.birthday.formatted(date: .abbreviated, time: .omitted),
+                    city: user.company,
+                    company: user.city)
+                .padding(.top, 16.0)
 #if DEBUG
                 Spacer()
                     .frame(height: 150.0)
