@@ -14,9 +14,9 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 Header(
-                    name: "John Doe",
-                    headshot: Image("bearded-man"),
-                    cover: Image("cover"))
+                    name: user.name,
+                    headshot: Image(uiImage:user.headshot),
+                    cover: Image(uiImage: user.cover))
                 Friends(friends: user.friends)
                 Bio(
                     about: user.about,
