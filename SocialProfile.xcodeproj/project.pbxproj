@@ -17,6 +17,7 @@
 		DE6DF157299E22B000946BEA /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF156299E22B000946BEA /* Previews.swift */; };
 		DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF159299E23C600946BEA /* CircularImage.swift */; };
 		DE6DF160299E64B100946BEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF15F299E64B100946BEA /* API.swift */; };
+		DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E76299F3DFB00A20E62 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DE6DF15E299E5D3300946BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE6DF15F299E64B100946BEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		DE6DF161299E67FC00946BEA /* Config.README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Config.README.md; sourceTree = "<group>"; };
+		DECA5E76299F3DFB00A20E62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DE6DF12C299E21C400946BEA /* SocialProfileApp.swift */,
 				DE6DF12E299E21C400946BEA /* ContentView.swift */,
 				DE6DF159299E23C600946BEA /* CircularImage.swift */,
+				DECA5E76299F3DFB00A20E62 /* Header.swift */,
 				DE6DF15F299E64B100946BEA /* API.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
 				DE6DF161299E67FC00946BEA /* Config.README.md */,
@@ -280,6 +283,7 @@
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
 				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DE6DF12D299E21C400946BEA /* SocialProfileApp.swift in Sources */,
+				DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */,
 				DE6DF160299E64B100946BEA /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
