@@ -19,6 +19,7 @@
 		DE6DF160299E64B100946BEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF15F299E64B100946BEA /* API.swift */; };
 		DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E76299F3DFB00A20E62 /* Header.swift */; };
 		DECA5E7B299F686300A20E62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7A299F686300A20E62 /* User.swift */; };
+		DECA5E7D299F69E200A20E62 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7C299F69E200A20E62 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DE6DF161299E67FC00946BEA /* Config.README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Config.README.md; sourceTree = "<group>"; };
 		DECA5E76299F3DFB00A20E62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		DECA5E7A299F686300A20E62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DECA5E7C299F69E200A20E62 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				DE6DF156299E22B000946BEA /* Previews.swift */,
+				DECA5E7C299F69E200A20E62 /* PreviewData.swift */,
 				DE6DF133299E21C500946BEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -286,6 +289,7 @@
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
 				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DECA5E7B299F686300A20E62 /* User.swift in Sources */,
+				DECA5E7D299F69E200A20E62 /* PreviewData.swift in Sources */,
 				DE6DF12D299E21C400946BEA /* SocialProfileApp.swift in Sources */,
 				DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */,
 				DE6DF160299E64B100946BEA /* API.swift in Sources */,
