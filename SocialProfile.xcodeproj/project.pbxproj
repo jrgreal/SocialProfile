@@ -18,6 +18,7 @@
 		DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF159299E23C600946BEA /* CircularImage.swift */; };
 		DE6DF160299E64B100946BEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF15F299E64B100946BEA /* API.swift */; };
 		DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E76299F3DFB00A20E62 /* Header.swift */; };
+		DECA5E79299F671C00A20E62 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E78299F671C00A20E62 /* Friends.swift */; };
 		DECA5E7B299F686300A20E62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7A299F686300A20E62 /* User.swift */; };
 		DECA5E7D299F69E200A20E62 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7C299F69E200A20E62 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		DE6DF15F299E64B100946BEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		DE6DF161299E67FC00946BEA /* Config.README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Config.README.md; sourceTree = "<group>"; };
 		DECA5E76299F3DFB00A20E62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		DECA5E78299F671C00A20E62 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		DECA5E7A299F686300A20E62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DECA5E7C299F69E200A20E62 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				DE6DF12E299E21C400946BEA /* ContentView.swift */,
 				DE6DF159299E23C600946BEA /* CircularImage.swift */,
 				DECA5E76299F3DFB00A20E62 /* Header.swift */,
+				DECA5E78299F671C00A20E62 /* Friends.swift */,
 				DE6DF15F299E64B100946BEA /* API.swift */,
 				DECA5E7A299F686300A20E62 /* User.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
+				DECA5E79299F671C00A20E62 /* Friends.swift in Sources */,
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
 				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DECA5E7B299F686300A20E62 /* User.swift in Sources */,
