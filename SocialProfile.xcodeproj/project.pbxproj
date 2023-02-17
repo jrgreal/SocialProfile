@@ -15,6 +15,7 @@
 		DE6DF148299E21C500946BEA /* SocialProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF147299E21C500946BEA /* SocialProfileUITests.swift */; };
 		DE6DF14A299E21C500946BEA /* SocialProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF149299E21C500946BEA /* SocialProfileUITestsLaunchTests.swift */; };
 		DE6DF157299E22B000946BEA /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF156299E22B000946BEA /* Previews.swift */; };
+		DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF159299E23C600946BEA /* CircularImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DE6DF147299E21C500946BEA /* SocialProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileUITests.swift; sourceTree = "<group>"; };
 		DE6DF149299E21C500946BEA /* SocialProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE6DF156299E22B000946BEA /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		DE6DF159299E23C600946BEA /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				DE6DF12C299E21C400946BEA /* SocialProfileApp.swift */,
 				DE6DF12E299E21C400946BEA /* ContentView.swift */,
+				DE6DF159299E23C600946BEA /* CircularImage.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
 				DE6DF132299E21C500946BEA /* Preview Content */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
+				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DE6DF12D299E21C400946BEA /* SocialProfileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
