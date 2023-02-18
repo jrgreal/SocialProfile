@@ -17,7 +17,14 @@ extension User {
         city: "Budapest",
         company: "Acorn Health",
         birthday: Date(string: "31/12/1960")!,
-        friends: .preview)
+        friends: .preview,
+        posts: [.preview, .preview, .preview])
+}
+
+extension Post {
+    static let preview = Post(
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        date: Date())
 }
 
 extension [User] {
