@@ -17,6 +17,9 @@
 		DE6DF157299E22B000946BEA /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF156299E22B000946BEA /* Previews.swift */; };
 		DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF159299E23C600946BEA /* CircularImage.swift */; };
 		DE6DF160299E64B100946BEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF15F299E64B100946BEA /* API.swift */; };
+		DE9B56F729A0BC37002D73B6 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B56F629A0BC37002D73B6 /* PostView.swift */; };
+		DE9B56F929A0BC3F002D73B6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B56F829A0BC3F002D73B6 /* Post.swift */; };
+		DE9B56FB29A0BD45002D73B6 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B56FA29A0BD45002D73B6 /* Buttons.swift */; };
 		DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E76299F3DFB00A20E62 /* Header.swift */; };
 		DECA5E79299F671C00A20E62 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E78299F671C00A20E62 /* Friends.swift */; };
 		DECA5E7B299F686300A20E62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7A299F686300A20E62 /* User.swift */; };
@@ -60,6 +63,9 @@
 		DE6DF15E299E5D3300946BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE6DF15F299E64B100946BEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		DE6DF161299E67FC00946BEA /* Config.README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Config.README.md; sourceTree = "<group>"; };
+		DE9B56F629A0BC37002D73B6 /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		DE9B56F829A0BC3F002D73B6 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DE9B56FA29A0BD45002D73B6 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		DECA5E76299F3DFB00A20E62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		DECA5E78299F671C00A20E62 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		DECA5E7A299F686300A20E62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 				DECA5E80299F948500A20E62 /* Views */,
 				DE6DF15F299E64B100946BEA /* API.swift */,
 				DECA5E7A299F686300A20E62 /* User.swift */,
+				DE9B56F829A0BC3F002D73B6 /* Post.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
 				DE6DF161299E67FC00946BEA /* Config.README.md */,
 				DE6DF15B299E588B00946BEA /* Global.xcconfig */,
@@ -165,7 +172,8 @@
 				DECA5E76299F3DFB00A20E62 /* Header.swift */,
 				DECA5E78299F671C00A20E62 /* Friends.swift */,
 				DECA5E81299FB46200A20E62 /* Bio.swift */,
-				DECA5E8929A0576E00A20E62 /* PostView.swift */,
+				DE9B56F629A0BC37002D73B6 /* PostView.swift */,
+				DE9B56FA29A0BD45002D73B6 /* Buttons.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,10 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECA5E8A29A0576E00A20E62 /* PostView.swift in Sources */,
 				DECA5E82299FB46200A20E62 /* Bio.swift in Sources */,
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
 				DECA5E79299F671C00A20E62 /* Friends.swift in Sources */,
+				DE9B56FB29A0BD45002D73B6 /* Buttons.swift in Sources */,
+				DE9B56F929A0BC3F002D73B6 /* Post.swift in Sources */,
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
 				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DECA5E7B299F686300A20E62 /* User.swift in Sources */,
@@ -311,6 +320,7 @@
 				DE6DF12D299E21C400946BEA /* SocialProfileApp.swift in Sources */,
 				DECA5E77299F3DFB00A20E62 /* Header.swift in Sources */,
 				DE6DF160299E64B100946BEA /* API.swift in Sources */,
+				DE9B56F729A0BC37002D73B6 /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
