@@ -165,6 +165,7 @@
 				DECA5E76299F3DFB00A20E62 /* Header.swift */,
 				DECA5E78299F671C00A20E62 /* Friends.swift */,
 				DECA5E81299FB46200A20E62 /* Bio.swift */,
+				DECA5E8929A0576E00A20E62 /* PostView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECA5E8A29A0576E00A20E62 /* PostView.swift in Sources */,
 				DECA5E82299FB46200A20E62 /* Bio.swift in Sources */,
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
 				DECA5E79299F671C00A20E62 /* Friends.swift in Sources */,
