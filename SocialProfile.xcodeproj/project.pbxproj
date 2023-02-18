@@ -22,8 +22,6 @@
 		DECA5E7B299F686300A20E62 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7A299F686300A20E62 /* User.swift */; };
 		DECA5E7D299F69E200A20E62 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E7C299F69E200A20E62 /* PreviewData.swift */; };
 		DECA5E82299FB46200A20E62 /* Bio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E81299FB46200A20E62 /* Bio.swift */; };
-		DECA5E84299FB8E700A20E62 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E83299FB8E700A20E62 /* Flags.swift */; };
-		DECA5E86299FB9CE00A20E62 /* FlagsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA5E85299FB9CE00A20E62 /* FlagsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +65,6 @@
 		DECA5E7A299F686300A20E62 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DECA5E7C299F69E200A20E62 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		DECA5E81299FB46200A20E62 /* Bio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bio.swift; sourceTree = "<group>"; };
-		DECA5E83299FB8E700A20E62 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
-		DECA5E85299FB9CE00A20E62 /* FlagsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +120,6 @@
 				DECA5E80299F948500A20E62 /* Views */,
 				DE6DF15F299E64B100946BEA /* API.swift */,
 				DECA5E7A299F686300A20E62 /* User.swift */,
-				DECA5E83299FB8E700A20E62 /* Flags.swift */,
-				DECA5E85299FB9CE00A20E62 /* FlagsController.swift */,
 				DE6DF130299E21C500946BEA /* Assets.xcassets */,
 				DE6DF161299E67FC00946BEA /* Config.README.md */,
 				DE6DF15B299E588B00946BEA /* Global.xcconfig */,
@@ -309,8 +303,6 @@
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
 				DECA5E79299F671C00A20E62 /* Friends.swift in Sources */,
 				DE6DF157299E22B000946BEA /* Previews.swift in Sources */,
-				DECA5E84299FB8E700A20E62 /* Flags.swift in Sources */,
-				DECA5E86299FB9CE00A20E62 /* FlagsController.swift in Sources */,
 				DE6DF15A299E23C600946BEA /* CircularImage.swift in Sources */,
 				DECA5E7B299F686300A20E62 /* User.swift in Sources */,
 				DECA5E7D299F69E200A20E62 /* PreviewData.swift in Sources */,
