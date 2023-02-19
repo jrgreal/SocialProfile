@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0E722729A1CC8F00F30B8B /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E722629A1CC8F00F30B8B /* CommentView.swift */; };
 		DE6DF12D299E21C400946BEA /* SocialProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF12C299E21C400946BEA /* SocialProfileApp.swift */; };
 		DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF12E299E21C400946BEA /* ContentView.swift */; };
 		DE6DF131299E21C500946BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6DF130299E21C500946BEA /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0E722629A1CC8F00F30B8B /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		DE6DF129299E21C400946BEA /* SocialProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6DF12C299E21C400946BEA /* SocialProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileApp.swift; sourceTree = "<group>"; };
 		DE6DF12E299E21C400946BEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				DE9B56F029A0AE0E002D73B6 /* PostView.swift */,
 				DE9B56F229A0B7EF002D73B6 /* Photos.swift */,
 				DE9B56FA29A0BD45002D73B6 /* Buttons.swift */,
+				DE0E722629A1CC8F00F30B8B /* CommentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECA5E82299FB46200A20E62 /* Bio.swift in Sources */,
+				DE0E722729A1CC8F00F30B8B /* CommentView.swift in Sources */,
 				DE6DF12F299E21C400946BEA /* ContentView.swift in Sources */,
 				DECA5E79299F671C00A20E62 /* Friends.swift in Sources */,
 				DE9B56FB29A0BD45002D73B6 /* Buttons.swift in Sources */,
